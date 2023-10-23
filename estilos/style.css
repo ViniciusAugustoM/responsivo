@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(64, 9, 64), rgb(3, 3, 50));
+}
+form{
+    width: 50vw;
+    height: 60vh;
+    top: 40%;
+    left: 25%;
+    margin:auto;
+    position: absolute;
+    
+    
+}
+input.login{
+    padding: 2px;
+    margin: 3px;
+    border-radius: 5px;
+    border:2px solid rgb(67, 1, 49)
+}
