@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px) and (max-width: 768px)  {
+@media screen and (min-width: 320px) and (max-width: 768px)  {
     body {
         background-image: url(../imagens/mineback.jpg);
         background-attachment: fixed;
