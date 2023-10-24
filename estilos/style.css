@@ -3,21 +3,58 @@
     margin: 0px;
 }
 body{
-    background-image: linear-gradient(to bottom, rgb(64, 9, 64), rgb(3, 3, 50));
+    background-image: url(../imagens/mineback.jpg);
+    background-size: cover;
 }
+fieldset{
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+}
+#login, p{
+    text-align: center;
+}
+
 form{
+    border-radius: 5px;
     width: 50vw;
     height: 60vh;
     top: 40%;
     left: 25%;
-    margin:auto;
+    margin:10px;
     position: absolute;
     
     
 }
 input.login{
+    width: 35%;
     padding: 2px;
     margin: 3px;
     border-radius: 5px;
     border:2px solid rgb(67, 1, 49)
+    display: inline;
+
+}
+div.campo{
+    background-color: #458C49;
+}
+.button{
+    text-align: center;
+    width: 50%;
+    margin-top: 4px;
+    background-color:#36593E ;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+.button:hover{
+    background-color: #458C49;
+    cursor: pointer;
+}
+#mine{
+    display: inline;
+    float: right;
+    padding: 5px;
+    max-width: 300px;
 }

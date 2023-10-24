@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <form action="cadastro.php" >
         
         <fieldset>
-            <h2>Login</h2>
+            <img  id='mine' src="imagens/logomine.png" alt="" srcset="">
+            <h2 id="login">Login</h2>
             <p>Seja bem vindo paizão</p>
-            <div >
+            <div class="campo" >
+                <i class="material-symbols-outlined">person</i>
                 <input class="login" type="text" name="user" id="user">
-                <label for="user">Usuário</label>
+                <label for="user">Login</label>
             </div>
-            <div >
+            <div class="campo" >
+                <i class="material-symbols-outlined">key</i>
                 <input class="login" type="password" name="senha" id="senha">
                 <label for="senha">Senha</label>
             </div>
             <div id="">
-                <input id="button" type="submit" value="Enviar">
+                <input class="button" type="submit" value="Enviar">
             </div>
             <div>
-                <input id="button" type="button" value="Esqueci a Senha">
+                <input class="button" type="button" value="Esqueci a Senha">
             </div>
+            
         </fieldset>
 
 
