@@ -6,6 +6,7 @@ body{
     background-image: url(../imagens/mineback.jpg);
     background-size: cover;
 }
+
 fieldset{
     background-color: azure;
     border-radius: 10px;
@@ -34,9 +35,7 @@ input.login{
     border-radius: 5px;
     border:2px solid rgb(67, 1, 49)
 }
-div.campo{
-    background-color: #458C49;
-}
+
 .button{
     text-align: center;
     width: 50%;

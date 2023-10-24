@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px) and (max-width: 768px)  {
+    body {
+        background-image: url(../imagens/mineback.jpg);
+        background-attachment: fixed;
+    }
+    fieldset{
+        margin: auto;
+        background-color: azure;
+        border-radius: 10px;
+        padding: 20px 10px;
+    
+    }
+    input.login{
+        width: 80%;
+        padding: 2px;
+        margin: 3px;
+        border-radius: 5px;
+        border:2px solid rgb(67, 1, 49);
+        
+    }
+    label{
+        display: none;
+    }
+    .button{
+        width: 100%;
+    }
+}
